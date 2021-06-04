@@ -1,0 +1,49 @@
+html {
+    font-size: 14px;
+    font-family: 'Courgette', cursive; /*from goole fonts*/
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li, #search, #explore {
+    display: inline-block;
+    margin: 10px;
+}
+
+button {
+    inset-block: 5px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(71, 70, 70, 0.062);
+}
+
+.logo, .searchbar {
+    display: block;
+}
+
+.left-section {
+    display: inline-block;
+    float: left;
+} 
+
+.right-section {
+    display: inline-block;
+    float: right;
+}
+
