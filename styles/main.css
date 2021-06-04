@@ -40,10 +40,18 @@ footer {
 .left-section {
     display: inline-block;
     float: left;
-} 
+}
+
+
 
 .right-section {
     display: inline-block;
     float: right;
+}
+
+.body {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
 }
 
